@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <main class="container">
+        <h1>Entradas Regionales</h1>
+        <p>Buscar por nombre o número de Pokédex</p>
+
+        <form>
+            <input 
+                type="text" 
+                id="buscarPokemon" 
+                placeholder="Ej: pikachu o 25" 
+                required
+            >
+            <button id="btnBuscar">Buscar</button>
+        </form>
+
+        <section class="result-container">
+            <h2 id="nombre"></h2>
+            <img id="imagen" alt="Imagen del Pokémon">
+            <p id="numero"></p>
+        </section>
+    </main>
+
+    <script src="./api.js"></script>
+</body>
+</html>

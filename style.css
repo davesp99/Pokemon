@@ -1,0 +1,43 @@
+/* Reset básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Cuerpo */
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ef5350, #b71c1c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor principal */
+.container {
+    background: #ffffff;
+    width: 320px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* Títulos */
+h1 {
+    margin-bottom: 10px;
+    color: #d32f2f;
+}
+
+p {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* Input */
+input {
+    width: 100%;
+    padding: 10px;
+    bor
